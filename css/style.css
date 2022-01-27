@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7rem;
+}
+#nav{
+    background: #333;
+    color: #fff;
+   overflow: auto;
+}
+#nav .logo{
+    padding-top: 20px;
+    float: left;
+    text-decoration: none;
+}
+#nav .logo h1 a{
+    color: #fff;
+}
+#nav ul{
+    list-style: none;
+    float: right;
+
+}
+#nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    margin: 10px;
+}
+#nav ul li a:hover, #nav ul li a.fix{
+    background: #444;
+    color: #f82a06;
+    padding: 10px;
+}
+.container{
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 20px;
+    /* overflow: auto; */
+}
+.info-show{
+    background: url('https://images.unsplash.com/photo-1618773928121-c32242e63f39?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90ZWwlMjByb29tfGVufDB8fDB8fA%3D%3D&w=1000&q=80') no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    text-align: center;
+    /* opacity: 0.5; */
+    z-index: -1;
+}
+.info-show h1{
+z-index: 1;
+position: relative;
+color: #fff;
+font-size: 3.2rem;
+text-shadow: 2px 2px black;
+margin-bottom: 40px;
+}
+.primary{
+    color: #fc2904;
+}
+.info-show p{
+font-size: 20px;
+margin-bottom: 55px;
+color: #fff;
+text-shadow: 2px 2px black;
+line-height: 1.5;
+padding: 50px;
+}
+.info-show .btn{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    background: #333;
+    padding: 15px 20px;
+    border-radius: 9px;
+}
+.info-show .btn:hover{
+    color: hsl(9, 94%, 49%);
+    background: rgb(100, 100, 100);
+}
+.detail img{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.detail h2{
+    text-align: center;
+    font-size: 1.9rem;
+    padding-top: 40px;
+}
+.detail-info{
+    background: #333;
+    color: #fff;
+    height: 400px;
+}
+.detail p{
+    text-align: center;
+    padding: 19px;
+    margin-top: 40px;
+}
+.detail .btn-1{
+    display: flex;
+    color:#333;
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 9px;
+    text-decoration: none;
+    width: 7rem;
+    margin: auto;
+    margin-top: 30px;
+}
+.detail .btn-1:hover{
+    background-color: tomato;
+    color: #fff;
+}
+#features{
+}
+.box{
+    float: left;
+    background: rgb(233, 230, 230);
+    width: 33.3%;
+    padding: 40px;
+    text-align: center;
+}
+.box i{
+    padding-bottom: 12px;
+}
+.box h3{
+    padding-bottom: 17px;
+}
+.box-1{
+    background: rgb(252, 112, 87);
+}
+.clr{
+    clear: both;
+}
+.main-footer{
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 15px;
+    margin-top: 10px;
+}
+.about-info{
+    display: flex;
+    width: 100%;
+    height: 330px;
+}
+.about-info .about-right{
+    width: 50%;
+    background: rgb(240, 239, 239);
+}
+.about-info .about-right img{
+    display: block;
+    border-radius: 50% ;
+    height: 300px;
+    margin: auto;
+    width: 70%;
+    padding: 23px;
+}
+.about-info .about-left{
+    float: left;
+    width: 50%;
+    height: 300px;
+    padding-top: 50px;
+    text-align: center;
+    background: rgb(240, 239, 239);
+    overflow: hidden;
+}
+.about-info .about-left h1{
+    margin-bottom: 40px;
+    font-size: 2.6rem
+}
+.about-info .about-left p{
+    font-size: 20px;
+}
+.face-info{
+    height: 500px;
+    width: 100%;
+    background: url('https://cdn.cnn.com/cnnnext/dam/assets/190107133743-hotel-facade-capitol-building-capitolkempinskisg-full-169.jpg') no-repeat center center/cover;
+}
+.face-info h1{
+    color: #fff;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px black;
+    padding-top: 30px;
+    text-align: center;
+}
+.face{
+    background: rgb(247, 141, 103);
+    display: flex;
+    margin: 40px 60px;
+    border-radius: 9px;
+}
+.face p{
+    width: 65%;
+    text-align: start;
+    padding: 20px 30px 20px 40px;
+    font-size: 20px;
+    font-style: italic;
+}
+.face img{
+    width: 100px;
+    height: 100px;
+    margin: 20px 70px 20px 20px;
+    border-radius: 50%;
+}
+#form{
+    margin: 20px;
+}
+#form h1{
+    font-size: 3rem;
+    margin: 28px 0;
+    text-align: center;
+}
+#form p{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#form .form-group{
+    padding-bottom: 20px;
+}
+#form .form-group label{
+    display: block;
+}
+#form .form-group input,
+#form .form-group textarea{
+    width: 100%;
+    border: 1px solid #444;
+    padding: 9px;
+}
+#form .form-group input:focus,
+#form .form-group textarea:focus{
+    border: 2px solid #f580ba;
+}
+.btn{
+    color: #fff;
+    background: #333;
+    padding: 13px 18px;
+    font-size: 18px;
+    width: 6rem;
+    margin: 10px 45% ;
+    border-radius: 9px;
+}
+.btn:hover{
+    color:black;
+    background: tomato;
+}
+#contact-info .box{
+    background: #444;
+    color: #fff;
+}
